@@ -1,0 +1,3 @@
+# style-transfer-with-strength-and-spatial-control
+This repository contains a pytorch implementation of our group project for CS 461/661 Computer Vision in spring 2020 at Johns Hopkins University. We combined the style transfer approaches developed in [Controlling Perceptual Factors in Neural Style Transfer](https://ieeexplore.ieee.org/document/8099880) and [Real-Time Style Transfer With Strength Control](https://link.springer.com/chapter/10.1007/978-3-030-29891-3_19) to to build a pipeline for fast style transfer with spatial and strength control. Our implementation allows transfer of two distinct styles onto two regions of the input content image guided by masks generated from [semantic
+segmentation](https://arxiv.org/abs/1706.05587).
