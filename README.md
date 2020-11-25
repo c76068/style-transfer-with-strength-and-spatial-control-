@@ -13,3 +13,33 @@ Train model:
 ```bash
 python style-transfer-with-strength-control-master/train_2sty.py --style_image1 'style-transfer-with-strength-control-master/images/styles/pencil.jpg' --style_image2 'style-transfer-with-strength-control-master/images/styles/picasso.jpg' --dataset 'data' --batch_size 10 --max_train_count 100000 --style_weight 5e4 --save_model_dir 'style-transfer-with-strength-control-master/models/' --log_batches_interval 20 --gpu_id 0
 ```
+## Trained models and examples:
+
+<table align='center'>
+<tr align='center'>
+<td> <img src = 'images/contents/foxcat.jpg' height="174px">
+<td> <img src = 'images/styles/picasso.jpg' height="174px">
+<td> <img src = 'images/styles/pencil.jpg' height="174px">
+</tr>
+<tr>
+<td> Content</td>
+<td> Style 1</td>
+<td> Style 2</td>
+</tr>
+<tr>
+<td> <img src = 'images/results/foxcat.jpg_pencil_picasso_0.2.jpg' height="174px">
+<td> <img src = 'images/results/foxcat.jpg_pencil_picasso_1.jpg' height="174px">
+<td> <img src = 'images/results/foxcat.jpg_pencil_picasso_2.0.jpg' height="174px">
+</tr>
+</table>
+
+<div align='center'>
+  <img src='images/contents/cat.jpg' height="174px">
+  <img src='images/styles/starry-night.jpg' height="174px">
+  <img src='images/styles/rain-princess-cropped.jpg' height="174px">
+  <br>
+  <img src='images/results/cat.jpg_starry-night_rain-princess_0.2.jpg' height="174px">
+  <img src='images/results/cat.jpg_starry-night_rain-princess_1.jpg' height="174px">
+  <img src='images/results/cat.jpg_starry-night_rain-princess_2.0.jpg' height="174px">
+</div>
+
