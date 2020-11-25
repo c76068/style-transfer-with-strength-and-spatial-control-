@@ -11,7 +11,7 @@ parser = argparse.ArgumentParser(description='Real-time style transfer with stre
 parser.add_argument('--max_train_count', default=160000, type=positive_int, help='training will stop after passing this number of images')
 parser.add_argument('--log_batches_interval', default=80,  type=positive_int, help='number of batches after which the training loss is logged')
 parser.add_argument('--style_image1', default='images/styles/la_muse.jpg', help='path to style-image')
-parser.add_argument('--style_image2', default='images/styles/la_muse.jpg', help='path to style-image')
+parser.add_argument('--style_image2', default='images/styles/feathers.jpg', help='path to style-image')
 parser.add_argument('--binary_image', default= None, help='path to binary-image')
 
 
